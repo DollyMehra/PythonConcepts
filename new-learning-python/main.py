@@ -14,13 +14,23 @@
 # print (v4)
 
 
-first_name = "dolly"
-last_name = "mehra"
-ice_cream = ". Would you like to eat an \"icecream\" ?"
+# first_name = "dolly"
+# last_name = "mehra"
+# ice_cream = ". Would you like to eat an \"icecream\" ?"
 
-print("hello" , first_name , last_name , ice_cream)
-print(first_name[0]) #indexing 
+# print("hello" , first_name , last_name , ice_cream)
+# print(first_name[0]) #indexing 
 
-for i in last_name:
-    print(i)
+# for i in last_name:
+#     print(i)
     
+
+
+fruit = "watermelon"
+print(len(fruit))
+#slicing
+
+#print(fruit[5:-2])
+#it work on like that
+print(fruit[(len(fruit)-5):(len(fruit)-2)])
+#print(fruit[-5:(len(fruit)-2)])
