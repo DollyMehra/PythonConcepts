@@ -26,11 +26,20 @@
     
 
 
-fruit = "watermelon"
-print(len(fruit))
-#slicing
+# fruit = "watermelon"
+# print(len(fruit))
+# #slicing
 
-#print(fruit[5:-2])
-#it work on like that
-print(fruit[(len(fruit)-5):(len(fruit)-2)])
-#print(fruit[-5:(len(fruit)-2)])
+# #print(fruit[5:-2])
+# #it work on like that
+# print(fruit[(len(fruit)-5):(len(fruit)-2)])
+# #print(fruit[-5:(len(fruit)-2)])
+
+
+nm = "Harry"
+print(len(nm))
+print(nm[-4:-2])
+#Harry
+#01234
+#5-4 : 5-2
+#1:3
