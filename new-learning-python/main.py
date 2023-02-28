@@ -43,3 +43,5 @@ print(nm[-4:-2])
 #01234
 #5-4 : 5-2
 #1:3
+#first digit will include
+#second digit will exclude
