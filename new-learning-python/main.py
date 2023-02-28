@@ -36,12 +36,17 @@
 # #print(fruit[-5:(len(fruit)-2)])
 
 
-nm = "Harry"
-print(len(nm))
-print(nm[-4:-2])
-#Harry
-#01234
-#5-4 : 5-2
-#1:3
-#first digit will include
-#second digit will exclude
+# nm = "Harry"
+# print(len(nm))
+# print(nm[-4:-2])
+# Harry
+# 01234
+# 5-4 : 5-2
+# 1:3
+# first digit will include
+# second digit will exclude
+
+
+a = "Dolly"
+print(a.upper())
+print(a.lower())
