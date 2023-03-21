@@ -44,7 +44,12 @@ for key in info.keys():
 
  #another method to do this.
 
-for key , value in info.items():
-   print(f"the value corresponding to the {key} is {value}")
+# for key , value in info.items():
+#    print(f"the value corresponding to the {key} is {value}")
     
-    
+  #employeeID: their performance from 100  
+ep1 = {101:10,102:40,103:60,104:95,105:58}
+ep2 = {201:30,202:40}
+
+ep1.update(ep2)
+print(ep1)
