@@ -1,0 +1,26 @@
+#virtual environment in python#
+
+step1: create a directory and go inside the directory
+
+step2: create a virtual environment
+command:       python -m venv myenv
+
+step3: to activate the virtual environment in windows:
+command:       myenv\Scripts\activate.bat 
+
+       to activate the virtual environment in mac or linux:    
+command:       source myenv/bin/activate
+
+step4: to close the created venv
+command:        deactivate
+
+step5: to know which packages are installed in the venv
+command:        pip freeze
+
+step6: save all the packages versions in one file named: requirements.txt
+command:        pip freeze > requirements.txt
+
+step7: to install the listed packages in the requirements.txt file
+command:     pip install -r requirements.txt
+
+            
